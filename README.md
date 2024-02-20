@@ -7,7 +7,7 @@ Este aplicativo foi projetado utilizando flutter para avaliar estratégias de ne
 
 ## Configuração
 
-### Passo 1: Alterando a Versão do Flutter
+### Passo 1: Alterando o canal Flutter
 
 É necessário alterar a versão do Flutter para uma versão específica, neste caso, para a versão 2.0.1. Mas antes de mudar para uma versão específica, é importante garantir que você esteja no canal correto do Flutter. Neste caso, vamos mudar para o canal master.
 
@@ -17,7 +17,7 @@ Digite o seguinte comando no seu terminal:
 flutter channel master
 ```
 
-### Passo 2: Abrir a Pasta do Flutter com Git e Realizar o Checkout
+### Passo 2: Alterando a versão do Flutter
 Navegue até a pasta onde o Flutter está instalado em seu sistema usando o terminal
 
 ```
@@ -29,7 +29,7 @@ git checkout 2.0.1
 ```
 Este comando fará com que você trabalhe com a versão 2.0.1 do Flutter, onde o aplicativo foi desenvolvido.
 
-### Passo 3: Verificar a Instalação e Baixar Arquivos Necessários
+### Passo 3: Verificar a Instalação e baixar arquivos necessários
 Depois de mudar para a versão desejada, é importante verificar se tudo está configurado corretamente. Para isso, execute o seguinte comando:
 
 ```
@@ -41,7 +41,7 @@ Isso verificará a instalação do Flutter e baixará quaisquer arquivos necess�
 Após executar esses passos, você estará pronto para desenvolver ou compilar seu aplicativo usando a versão 2.0.1 do Flutter.
 
 
-### Passo 4 (Opcional): Solucionando erro de versão de compilação do Java no Flutter doctor para obter as licenças
+### Passo 4 (Opcional): Solucionando erro de versão de compilação do Java 
 
 ```
 flutter doctor --android-licenses
@@ -78,11 +78,24 @@ Após baixar a versão correspondente navegue até a pasta onde SDK esta instala
 
 
 
+### Passo 5 (Opcional): Solucionando erro de Android Studio não encontrado
 
+Comando utilizado para configurar o diretório do Android Studio no ambiente do Flutter caso tenha instalado em um diretório diferente.
+```
+flutter config --android-studio-dir="caminho\do\Android Studio"
+```
 
+### Passo 6 (Opcional): Solucionando erro de Java não encontrado
+```
+‘Unable to find bundled Java version with flutter doctor.....’
+```
+O erro "Unable to find bundled Java version" indica que o Flutter não conseguiu encontrar uma versão do Java incluída no pacote. Isso pode ocorrer quando o Flutter não consegue localizar a instalação do Java em seu sistema ou quando a instalação do Java não está configurada corretamente.
 
+Este erro pode estar sendo causado quando a pasta jre dentro do diretório do Android Studio estiver vazia ou com apenas um arquivo, para solucionar basta copiar e colar a pasta jbr e renomea-la para jre
 
-
+<div align="center">
+  <img src="https://github.com/lucasmargui/Flutter_Projeto_Stocks/assets/157809964/a8e5ca2a-dd26-40f2-905d-c38108075edb" style="width:50%">
+</div>
 
 
 ## Funcionalidades Principais
