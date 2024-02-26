@@ -7,6 +7,9 @@ Este aplicativo foi projetado utilizando flutter para avaliar estratégias de ne
 
 ## Configuração
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 ### Passo 1: Alterando o canal Flutter
 
 É necessário alterar a versão do Flutter para uma versão específica, neste caso, para a versão 2.0.1. Mas antes de mudar para uma versão específica, é importante garantir que você esteja no canal correto do Flutter. Neste caso, vamos mudar para o canal master.
@@ -96,6 +99,10 @@ Este erro pode estar sendo causado quando a pasta jre dentro do diretório do An
 <div align="center">
   <img src="https://github.com/lucasmargui/Flutter_Projeto_Stocks/assets/157809964/a8e5ca2a-dd26-40f2-905d-c38108075edb" style="width:50%">
 </div>
+
+
+
+</details>
 
 
 ## Funcionalidades Principais
